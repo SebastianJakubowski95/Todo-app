@@ -1,0 +1,48 @@
+.main {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  height: 2.9rem;
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.dark {
+  background: var(--cell-dark-bg);
+  border: 1px solid #c0c2d9;
+}
+.light {
+  background: var(--white);
+  border: 1px solid #3c3c41;
+  filter: drop-shadow(0px 17px 16px rgba(0, 0, 0, 0.25));
+}
+.no-border {
+  border: 1px solid #ffffff00;
+}
+
+input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.125rem;
+}
+.input-light {
+  color: var(--para-default-light);
+}
+.input-dark {
+  color: var(--para-default-dark);
+}
+
+@media (max-width: 768px) {
+  input[type="text"] {
+    font-size: 0.875rem;
+  }
+  .main {
+    height: 2rem;
+  }
+}

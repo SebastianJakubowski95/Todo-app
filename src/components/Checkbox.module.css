@@ -1,0 +1,55 @@
+.main {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  border: 1.5px solid;
+  display: grid;
+  place-items: center;
+  background-color: transparent;
+  transition: border-color 150ms ease, scale 150ms ease;
+}
+
+.dark {
+  border-color: #36384d;
+}
+.light {
+  border-color: var(--para-done-light);
+}
+
+.todo {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+button.todo > div {
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+}
+
+.done {
+  background: linear-gradient(110.85deg, #57ddff 13.79%, #c058f3 86.35%);
+  border: none;
+}
+
+@media (hover: hover) {
+  button.light:hover {
+    border-color: var(--para-default-light);
+  }
+  button.dark:hover {
+    border-color: var(--para-default-dark);
+  }
+  button.todo:hover {
+    background: linear-gradient(110.85deg, #57ddff 13.79%, #c058f3 86.35%);
+    border: none;
+  }
+}
+
+button.light:active {
+  border-color: var(--para-default-light);
+  scale: 0.9;
+}
+button.dark:active {
+  border-color: var(--para-default-dark);
+  scale: 0.9;
+}

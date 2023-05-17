@@ -1,13 +1,99 @@
+* {
+  /* outline: 1px solid red; */
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none !important;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+:root {
+  /* COLORS */
+
+  --white: #ffffff;
+  --black: #181824;
+  --para-default-dark: #c0c2d9;
+  --para-done-dark: #6e7085;
+  --para-default-light: #3c3c41;
+  --para-done-light: #b5b6bb;
+  --cell-dark-bg: #25273c;
+  --blue: #3d7af8;
+  --gradient-color: linear-gradient(110.85deg, #57ddff 13.79%, #c058f3 86.35%);
+
+  /* FONT WEIGHT */
+  --regular: 400;
+  --bold: 700;
+}
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+h1,
+p {
+  font-family: "Josefin Sans", sans-serif;
+}
+h1 {
+  font-size: 2.75rem;
+  letter-spacing: 0.2rem;
+  font-weight: var(--bold);
+  color: var(--white);
+}
+p {
+  font-size: 1.125rem;
+  margin: 0;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  filter: drop-shadow(0px 17px 16px rgba(0, 0, 0, 0.25));
+  border-radius: 0.5rem 0.5rem 0 0;
+  max-height: 35rem;
+  overflow: scroll;
+}
+
+.crossed-out {
+  text-decoration: line-through;
+}
+
+.drop-shodow {
+  filter: drop-shadow(0px 17px 38px rgba(0, 0, 0, 0.15));
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.875rem;
+  }
+  p {
+    font-size: 0.875rem;
+  }
+  ul {
+    max-height: 25rem;
+  }
 }
