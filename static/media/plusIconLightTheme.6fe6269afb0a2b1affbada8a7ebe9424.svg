@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="4.5mm" height="4.5mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 22.68 22.68"
+ xmlnsXlink="http://www.w3.org/1999/xlink"
+ xmlnsXodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+
+ </defs>
+ <g fill='#3C3C41'>
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M8.96 2.38l0 6.58 -6.58 0c-1.31,0 -2.38,1.07 -2.38,2.38 0,1.31 1.07,2.38 2.38,2.38l6.58 0 0 6.58c0,1.31 1.07,2.38 2.38,2.38 1.31,0 2.38,-1.07 2.38,-2.38l0 -6.58 6.58 0c1.31,0 2.38,-1.07 2.38,-2.38 0,-1.31 -1.07,-2.38 -2.38,-2.38l-6.58 0 0 -6.58c0,-1.31 -1.07,-2.38 -2.38,-2.38 -1.31,0 -2.38,1.07 -2.38,2.38z"/>
+ </g>
+</svg>
